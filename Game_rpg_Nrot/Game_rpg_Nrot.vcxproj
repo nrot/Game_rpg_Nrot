@@ -161,15 +161,32 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Drop.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Main_Game_Loop.h" />
+    <ClInclude Include="Main_SDL.h" />
+    <ClInclude Include="Object.h" />
     <ClInclude Include="Options.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Terrain.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Drop.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Field.cpp" />
     <ClCompile Include="Game_rpg_Nrot.cpp" />
+    <ClCompile Include="Main_Game_Loop.cpp" />
+    <ClCompile Include="Main_SDL.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="Options.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Terrain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Game_rpg_Nrot.rc" />
